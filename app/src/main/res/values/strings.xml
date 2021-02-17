@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Market of second hand materials</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="used">Market of Used materials</string>
+    <string name="signup">Admin</string>
+    <string name="login">Login</string>
+    <string name="Settings">Settings</string>
+    <string name="Logout">Logout</string>
+    <string name="welcome">Welcome to the market of Second hand materials, Buy,Sell on affordable prices!!!</string>
+    <string name="enjoy">Use This app to get what you want at any time!!!!</string>
+    <string name="PREVIOUS">PREVIOUS</string>
+    <string name="NEXT">NEXT</string>
+    <string name="buy">Buy used materials on affordable price!!!!</string>
+    <string name="product_description">product Description</string>
+    <string name="product_name">Product name</string>
+    <string name="Contact">Contact</string>
+</resources>

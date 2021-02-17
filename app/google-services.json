@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1001988151057",
+    "firebase_url": "https://market-of-second-hand-material.firebaseio.com",
+    "project_id": "market-of-second-hand-material",
+    "storage_bucket": "market-of-second-hand-material.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001988151057:android:c6dcf26efc5657d2091eb0",
+        "android_client_info": {
+          "package_name": "com.example.marketofsecondhandmaterials"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001988151057-rlpjv5hrq7die9k7bf14ua3u2p9js4er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1XsrClVZbneH01Teat-Xh7QWDV4GMiOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001988151057-rlpjv5hrq7die9k7bf14ua3u2p9js4er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

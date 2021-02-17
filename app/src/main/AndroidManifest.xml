@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.marketofsecondhandmaterials">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".contact"></activity>
+        <activity
+            android:name=".Electronicview1"
+            android:label="Electronic Materials"></activity>
+        <activity
+            android:name=".Electronicview"
+            android:label="Electronic Materials" />
+        <activity
+            android:name=".FurnitureView1"
+            android:label="Products" />
+        <activity
+            android:name=".Furnitureview"
+            android:label="Products" />
+        <activity
+            android:name=".furnitureActivity"
+            android:label="Products " />
+        <activity
+            android:name=".Choesview1"
+            android:label="Choes" />
+        <activity
+            android:name=".Choesview"
+            android:label="Choes" />
+        <activity
+            android:name=".ChoesActivity"
+            android:label="Choes" />
+        <activity
+            android:name=".orderingview"
+            android:label="Ordered Materials" />
+        <activity
+            android:name=".ordering"
+            android:label="ordering Different Materials" />
+        <activity
+            android:name=".selling2"
+            android:label="Clothes" />
+        <activity
+            android:name=".selling"
+            android:label="Clothes" />
+        <activity
+            android:name=".Product"
+            android:label="Clothes" />
+        <activity
+            android:name=".Clothstore"
+            android:label="Clothes" />
+        <activity android:name=".Clients" />
+        <activity android:name=".sold" />
+        <activity
+            android:name=".choes"
+            android:label="Choes" />
+        <activity
+            android:name=".Electronic"
+            android:label="Electronic Materials" />
+        <activity
+            android:name=".Furniture"
+            android:label="Furniture Materials" />
+        <activity
+            android:name=".AdminLogin"
+            android:label="Admin Login" />
+        <activity
+            android:name=".Admin"
+            android:label="Admin " />
+        <activity
+            android:name=".MainActivity2"
+            android:label="Dashboard"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity> />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LanguageActivity"
+            android:label="Choose Language" />
+        <activity
+            android:name=".login"
+            android:label="Login" />
+        <activity
+            android:name=".signup"
+            android:label="Sign Up" />
+        <activity android:name=".SpashThree" />
+        <activity android:name=".SplashTwo" />
+        <activity android:name=".SplashOne" />
+    </application>
+
+</manifest>

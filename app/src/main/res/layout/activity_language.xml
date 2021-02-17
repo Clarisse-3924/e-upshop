@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_weather"
+    tools:context=".LanguageActivity">
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_margin="50dp"
+        android:text="@string/choose_language"
+        android:id="@+id/choose_lang_text"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="English"
+        android:layout_below="@id/choose_lang_text"
+        android:id="@+id/english"
+        android:layout_centerHorizontal="true"
+        android:layout_width="270dp"
+        android:background="@drawable/rounded_borders"
+        android:layout_marginTop="100dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Kinyarwanda"
+        android:layout_below="@id/english"
+        android:id="@+id/kiny"
+        android:layout_centerHorizontal="true"
+        android:layout_width="270dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_borders"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Francais"
+        android:layout_below="@id/kiny"
+        android:id="@+id/fench"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="270dp"
+        android:background="@drawable/rounded_borders"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
